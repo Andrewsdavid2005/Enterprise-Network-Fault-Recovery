@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Project-In%20Development-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📌 Project Overview
+## Project Overview
 
 **Enterprise Network Fault Detection & Auto-Recovery** is a Python-based network monitoring and troubleshooting project designed to analyze Cisco router interface status, OSPF neighbor information, and network health data.
 
@@ -14,7 +14,7 @@ The project uses a Cisco Packet Tracer enterprise network topology and Python au
 
 The current implementation analyzes saved Cisco CLI outputs. It provides a foundation for extending the system into live network monitoring and automated remediation.
 
-## 🎯 Objectives
+## Objectives
 
 - Monitor router interface status and protocol state.
 - Analyze OSPF neighbor relationships.
@@ -25,7 +25,7 @@ The current implementation analyzes saved Cisco CLI outputs. It provides a found
 - Explore Python-based network automation using Netmiko.
 - Improve network reliability through systematic fault analysis.
 
-## 🏗️ Network Topology
+## Network Topology
 
 The lab consists of three Cisco 2911 routers connected in a triangle topology. Each router connects to a local switch and PC.
 
@@ -67,7 +67,7 @@ The lab uses **Open Shortest Path First (OSPF)** with the following configuratio
 
 The triangle topology provides multiple paths between routers, making it useful for studying routing behavior and potential link failures.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -80,7 +80,7 @@ The triangle topology provides multiple paths between routers, making it useful 
 | PowerShell | Windows terminal and project execution |
 | Git and GitHub | Version control and project sharing |
 
-## ⚙️ Project Features
+## Project Features
 
 ### 1. Interface Monitoring
 
@@ -151,7 +151,7 @@ The connection experiment is separate from the offline analysis pipeline. Cisco 
 
 Successful SSH access from a simulated PC does not guarantee that the host computer running Python can connect to the same router.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Enterprise-Network-Fault-Recovery/
@@ -189,7 +189,7 @@ Enterprise-Network-Fault-Recovery/
 
 *Note: The listed report and log files are generated outputs and may not exist until the scripts are executed. The exact folder contents depend on your local project version.*
 
-## 💻 Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 
@@ -249,7 +249,7 @@ Add other packages only when the project code requires them.
 6. Verify connectivity from the simulated PCs.
 7. Save the relevant CLI outputs into `sample_outputs/`.
 
-## ▶️ Running the Project
+## Running the Project
 
 ### Run the complete offline analysis pipeline
 
@@ -289,7 +289,7 @@ python ssh_monitor.py
 
 Run each command only if the corresponding script is present and its required inputs are configured.
 
-## 📊 Generated Reports
+## Generated Reports
 
 | Report | Purpose |
 |---|---|
@@ -304,7 +304,7 @@ Run each command only if the corresponding script is present and its required in
 
 Generated filenames may vary depending on the individual scripts and their current configuration.
 
-## 🧪 Testing and Validation
+## Testing and Validation
 
 Use the following tests to validate the project:
 
@@ -317,7 +317,7 @@ Use the following tests to validate the project:
 
 Perform failure tests only in your isolated lab, and restore the original configuration after testing.
 
-## 🔐 Security Considerations
+## Security Considerations
 
 - Never publish router passwords, API keys, or personal credentials.
 - Do not commit `.env` files or local credential files.
@@ -327,7 +327,7 @@ Perform failure tests only in your isolated lab, and restore the original config
 - Test recovery changes in a lab before using them in production.
 - Require authorization and appropriate safeguards before implementing automated configuration changes.
 
-## ⚠️ Current Limitations
+## Current Limitations
 
 - The primary monitoring workflow analyzes saved CLI output rather than continuously polling live devices.
 - Live Netmiko connections depend on network reachability and device SSH support.
@@ -336,7 +336,7 @@ Perform failure tests only in your isolated lab, and restore the original config
 - Recovery recommendations are generated for review; configuration changes are not automatically applied.
 - Results depend on the quality and freshness of the input files.
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Integrate live monitoring with supported network devices.
 - Add scheduled polling and fault alerts.
@@ -347,7 +347,7 @@ Perform failure tests only in your isolated lab, and restore the original config
 - Add unit tests for parsing, fault classification, and recovery decisions.
 - Expand support for additional routing protocols and device types.
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I practiced:
 
@@ -359,17 +359,17 @@ Through this project, I practiced:
 - Using Netmiko to explore SSH-based network automation.
 - Organizing a multi-script Python project with Git and GitHub.
 
-## 👨‍💻 Author
+## Author
 
 **Andrews GnanaSelvin D**
 
 - GitHub: [Andrewsdavid2005](https://github.com/Andrewsdavid2005)
 - LinkedIn: [Andrews GnanaSelvin D](https://www.linkedin.com/in/andrews-gnana-selvin-d)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. Add a `LICENSE` file containing the MIT License text before describing the repository as officially licensed under MIT.
 
 ---
 
-⭐ If you find this project useful for learning network troubleshooting and Python automation, feel free to explore the code and suggest improvements.
+If you find this project useful for learning network troubleshooting and Python automation, feel free to explore the code and suggest improvements.
