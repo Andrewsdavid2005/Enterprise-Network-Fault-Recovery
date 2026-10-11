@@ -1,0 +1,3 @@
+timestamp,router,check,item,severity,decision,recommended_action
+2026-10-11T19:50:04,R1,OSPF,2.2.2.2,INFO,NO_ACTION,No fault detected
+2026-10-11T19:50:04,R1,OSPF,3.3.3.3,INFO,NO_ACTION,No fault detected

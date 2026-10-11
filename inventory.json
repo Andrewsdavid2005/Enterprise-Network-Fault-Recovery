@@ -1,0 +1,36 @@
+
+{
+  "project": "Enterprise Network Fault Detection",
+  "devices": [
+    {
+      "name": "R1",
+      "ip": "192.168.10.1",
+      "role": "HQ Router"
+    },
+    {
+      "name": "R2",
+      "ip": "192.168.20.1",
+      "role": "Branch 1 Router"
+    },
+    {
+      "name": "R3",
+      "ip": "192.168.30.1",
+      "role": "Branch 2 Router"
+    },
+    {
+      "name": "PC1",
+      "ip": "192.168.10.10",
+      "role": "HQ PC"
+    },
+    {
+      "name": "PC2",
+      "ip": "192.168.20.10",
+      "role": "Branch 1 PC"
+    },
+    {
+      "name": "PC3",
+      "ip": "192.168.30.10",
+      "role": "Branch 2 PC"
+    }
+  ]
+}

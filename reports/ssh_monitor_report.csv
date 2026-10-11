@@ -1,0 +1,31 @@
+timestamp,router,ip,ssh_status,interface_output,ospf_output,error
+2026-10-11T19:32:23,R1,192.168.10.1,FAILED,,,"TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.10.1:22
+
+"
+2026-10-11T19:32:33,R2,192.168.20.1,FAILED,,,"TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.20.1:22
+
+"
+2026-10-11T19:32:43,R3,192.168.30.1,FAILED,,,"TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.30.1:22
+
+"
